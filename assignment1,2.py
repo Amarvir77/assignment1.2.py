@@ -1,3 +1,4 @@
+
 # coding: utf-8
 # # Welcome
 # Welcome the the 1st course on coursera called "A developer's guide to Exploratory Analysis of IoT Sensor Data" which can be found here: https://www.coursera.org/teach/developer-iot-data-analyst-exploratory
@@ -13,7 +14,7 @@
 # In[6]:
 
 
-def assignment1:(sc)
+def assignment1(sc):
     rdd = sc.parallelize(range(100))
     return rdd.count()
 
